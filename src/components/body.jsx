@@ -45,7 +45,7 @@ export default function MainBody() {
               </span>
             </h1>
             <button className="inline-flex items-center rounded-md  px-2 py-1 text-lg font-medium text-black ring-1 ring-inset ring-black mr-2 hover:text-xl hover:border-2 hover:border-black animate-slidein2">
-              <a href="/Connect-me">Get In Touch</a>
+              <a href="/Contact-me">Get In Touch</a>
             </button>
             <button className="inline-flex items-center rounded-md  px-2 py-1 text-lg font-medium text-black ring-1 ring-inset ring-black hover:text-xl hover:border-2 hover:border-black animate-slidein2" onClick={downloadFile}>
               Download Resume
