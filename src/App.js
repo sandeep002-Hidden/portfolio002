@@ -9,7 +9,7 @@ function App() {
     <>
     <Router basename='/portfolio'>
       <Routes>
-        <Route exact path="/" element={<MainBody/>} />
+        <Route exact path="/portfolio" element={<MainBody/>} />
         <Route exact path="/Connect-me" element={<ContactMe/>} />
         <Route exact path="/Projects" element={<Projects/>} />
         <Route exact path="/About-Me" element={<AboutMe/>} />
