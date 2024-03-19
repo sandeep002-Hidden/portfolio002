@@ -1,4 +1,5 @@
 import { Disclosure } from "@headlessui/react";
+import { Link } from "react-router-dom";
 
 const navigation = [
   { name: "Dashboard", href: "/", current: true },
@@ -16,14 +17,7 @@ export default function Header() {
               <div className="animate-on-load flex flex-1 items-center justify-center animate-slidein ">
                 <div className="w-1/2 space-x-4 hover:text-xl">
                   {navigation.map((item) => (
-                    <a
-                      key={item.name}
-                      href={item.href}
-                      className="text-center rounded-md px-3 py-2 text-xl flex-col align-center justify-around text-black hover:text-2xl hover:text-highlight font-black"
-                      aria-current={item.current ? "page" : undefined}
-                    >
-                      {item.name}
-                    </a>
+                    <Link to={item.href} className="text-center rounded-md px-3 py-2 text-xl flex-col align-center justify-around text-black hover:text-2xl hover:text-highlight font-black">{item.name}</Link>
                   ))}
                 </div>
                 <div className="flex items-center justify-center w-1/2 text-highlight text-center rounded-md px-3 py-2  text-4xl  font-black">
