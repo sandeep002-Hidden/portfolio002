@@ -7,7 +7,7 @@ import AboutMe from './components/AboutMe';
 function App() {
   return (
     <>
-    <Router>
+    <Router basename='/portfolio'>
       <Routes>
         <Route exact path="/" element={<MainBody/>} />
         <Route exact path="/Connect-me" element={<ContactMe/>} />
@@ -15,7 +15,6 @@ function App() {
         <Route exact path="/About-Me" element={<AboutMe/>} />
       </Routes>
     </Router>
-    
     </>
   );
 }
