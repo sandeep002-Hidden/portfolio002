@@ -1,10 +1,10 @@
 import { Disclosure } from "@headlessui/react";
 
 const navigation = [
-  { name: "Dashboard", href: "/portfolio", current: true },
-  { name: "About-Me", href: "/portfolio/About-Me", current: false },
-  { name: "Projects", href: "/portfolio/Projects", current: false },
-  { name: "Contact-Me", href: "/portfolio/Connect-me", current: false },
+  { name: "Dashboard", href: "/", current: true },
+  { name: "About-Me", href: "/About-Me", current: false },
+  { name: "Projects", href: "/Projects", current: false },
+  { name: "Contact-Me", href: "/Connect-me", current: false },
 ];
 export default function Header() {
   return (
