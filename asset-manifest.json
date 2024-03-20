@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/portfolio002/static/css/main.8d15e4ea.css",
+    "main.js": "/portfolio002/static/js/main.606b3c43.js",
+    "static/media/steller3.png": "/portfolio002/static/media/steller3.ba7e2483769b54e69468.png",
+    "static/media/stockTrend3.png": "/portfolio002/static/media/stockTrend3.75aae83ce1dc8bbee836.png",
+    "static/media/searchEngine1.png": "/portfolio002/static/media/searchEngine1.31a097d91c3b83e57d1b.png",
+    "static/media/steller1.png": "/portfolio002/static/media/steller1.6f651c8c0ebc6c2bc924.png",
+    "static/media/stockTrend1.png": "/portfolio002/static/media/stockTrend1.8e9376e1d5566e3ee230.png",
+    "static/media/stockTrend2.png": "/portfolio002/static/media/stockTrend2.2a0edeef7eaaef4953fe.png",
+    "static/media/steller2.png": "/portfolio002/static/media/steller2.1ffd290bc661cb268eed.png",
+    "static/media/searchEngine2.png": "/portfolio002/static/media/searchEngine2.668dccc33c77cf106006.png",
+    "index.html": "/portfolio002/index.html",
+    "main.8d15e4ea.css.map": "/portfolio002/static/css/main.8d15e4ea.css.map",
+    "main.606b3c43.js.map": "/portfolio002/static/js/main.606b3c43.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8d15e4ea.css",
+    "static/js/main.606b3c43.js"
+  ]
+}
