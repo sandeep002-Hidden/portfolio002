@@ -7,7 +7,7 @@ import AboutMe from "./components/AboutMe";
 function App() {
   return (
     <>
-      <BrowserRouter basename="/portfolio">
+      <BrowserRouter basename="/portfolio002">
         <Routes>
           <Route path="/" element={<MainBody />} />
           <Route path="/About-Me" element={<AboutMe/>} />
