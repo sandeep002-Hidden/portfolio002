@@ -125,13 +125,13 @@ export default function MainBody() {
                 src={searchEngine1}
                 alt="Search Engine Home"
                 srcset=""
-                className="my-4 w-fit hover:animate-enlarge"
+                className="my-4 w-fit "
               />
               <img
                 src={searchEngine2}
                 alt="Search Engine Search"
                 srcset=""
-                className="my-4 w-fit hover:animate-enlarge"
+                className="my-4 w-fit"
               />
             </div>
           </div>
@@ -155,13 +155,13 @@ export default function MainBody() {
                 src={stockTrend1}
                 alt="Stock Trend Predicted"
                 srcset=""
-                className="my-4 w-fit hover:animate-enlarge"
+                className="my-4 w-fit "
               />
               <img
                 src={stockTrend3}
                 alt="Stock Trend Observed"
                 srcset=""
-                className="my-4 w-fit hover:animate-enlarge"
+                className="my-4 w-fit "
               />
             </div>
           </div>

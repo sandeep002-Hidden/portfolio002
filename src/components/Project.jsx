@@ -21,19 +21,19 @@ export default function Projects() {
             src={setller1}
             alt="Stellar1"
             srcset=""
-            className="w-fit md:w-1/4 hover:animate-enlarge "
+            className="w-fit md:w-1/4 "
           />
           <img
             src={setller2}
             alt="Stellar1"
             srcset=""
-            className="w-fit md:w-1/4 hover:animate-enlarge"
+            className="w-fit md:w-1/4 "
           />
           <img
             src={setller3}
             alt="Stellar1"
             srcset=""
-            className="w-fit md:w-1/4 hover:animate-enlarge"
+            className="w-fit md:w-1/4 "
           />
         </div>
         <div className="h-1/2 w-11/12 text-justify">
@@ -54,13 +54,13 @@ export default function Projects() {
             src={searchEngine1}
             alt="Stellar1"
             srcset=""
-            className="m-fit md:w-1/3 hover:animate-enlarge"
+            className="m-fit md:w-1/3"
           />
           <img
             src={searchEngine2}
             alt="Stellar1"
             srcset=""
-            className="m-fit md:w-1/3 hover:animate-enlarge"
+            className="m-fit md:w-1/3"
           />
         </div>
         <div className="h-1/2 w-11/12 text-justify">
@@ -87,13 +87,13 @@ export default function Projects() {
             src={stockTrend1}
             alt="Stellar1"
             srcset=""
-            className="w-fit  md:w-1/3 hover:animate-enlarge"
+            className="w-fit  md:w-1/3"
           />
           <img
             src={stockTrend2}
             alt="Stellar1"
             srcset=""
-            className="w-fit md:w-1/3 hover:animate-enlarge"
+            className="w-fit md:w-1/3"
           />
         </div>
         <div className="h-1/2  text-justify  my-20">
