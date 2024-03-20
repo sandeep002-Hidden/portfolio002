@@ -7,6 +7,8 @@ import searchEngine1 from "../images/searchEngine1.png";
 import searchEngine2 from "../images/searchEngine2.png";
 import stockTrend1 from "../images/stockTrend1.png"
 import stockTrend3 from "../images/stockTrend3.png"
+import { Link } from "react-router-dom";
+
 export default function MainBody() {
   const downloadFile=()=>{
     const link = document.createElement('a');
@@ -45,7 +47,7 @@ export default function MainBody() {
               </span>
             </h1>
             <button className="inline-flex items-center rounded-md  px-2 py-1 text-lg font-medium text-black ring-1 ring-inset ring-black mr-2 hover:text-xl hover:border-2 hover:border-black animate-slidein2">
-              <a href="/Contact-me">Get In Touch</a>
+              <Link to="/portfolio/Contact-me"></Link>
             </button>
             <button className="inline-flex items-center rounded-md  px-2 py-1 text-lg font-medium text-black ring-1 ring-inset ring-black hover:text-xl hover:border-2 hover:border-black animate-slidein2" onClick={downloadFile}>
               Download Resume
