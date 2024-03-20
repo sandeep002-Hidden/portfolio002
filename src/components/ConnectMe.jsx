@@ -26,9 +26,9 @@ export default function ContactMe(){
         <div className="flex-col h-screen flex items-center justify-center animate-slidein3 ">
             <div className="h-1/5 flex justify-start items-center w-5/6 text-left text-5xl font-extrabold ">Contact Me<span className="text-6xl text-purple-600">.</span></div>
             <form ref={form} onSubmit={sendEmail} className="h-4/5 w-5/6 flex flex-col justify-around items-center">
-                <div className="w-full 1/6 flex justify-center items-center">
-                <input name='user_name' type="text" placeholder="Name" className="w-2/5 h-full m-1 bg-gray-200 rounded-md" required/>
-                <input name="user_email" type="email" placeholder="Email" className="w-2/5 h-full m-1  bg-gray-200 rounded-md" required/>
+                <div className="w-full 1/6 md:flex md:justify-center md:items-center block">
+                <input name='user_name' type="text" placeholder="Name" className="md:w-2/5 h-full m-1 bg-gray-200 rounded-md mx-8 md:mx-2" required/>
+                <input name="user_email" type="email" placeholder="Email" className="md:w-2/5 h-full m-1  bg-gray-200 rounded-md mx-8 md:mx-2" required/>
                 </div>
                 <div className="w-5/6 h-6/6">
                 <textarea name="message" id="" cols="30" rows="10" className="resize-none rounded-md w-full h-11/12  bg-gray-200 " placeholder="Message"></textarea>
