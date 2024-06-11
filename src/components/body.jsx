@@ -14,7 +14,7 @@ export default function MainBody() {
   const downloadFile = () => {
     const link = document.createElement("a");
     link.href =
-      "https://drive.google.com/file/d/1NKCQjh_LiIFofSKo-QuH8t8D0p1kItSz/view?usp=drive_link";
+      "https://drive.google.com/file/d/138bQKTLoAj2Nt3k33h4EzMRsDH9cYAuR/view";
     link.download = "example.txt";
     document.body.appendChild(link);
     link.click();
